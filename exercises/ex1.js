@@ -10,17 +10,17 @@ const ex1Array = [1, 2, 3, 4]
 
 function mysteryMethod(arr, func) { // takes an array and a function as parameters
 
-  let newArr = [] // starts with an empty array
+  let newArr = [] // starts with an empty new array
 
   for (let i = 0; i < arr.length; i++) { // loops through each item in the array
-    newArr.push(func(arr[i])) // adds the returned value from the 'func' parameter, which gets called with the current item in the loop
+    newArr.push(func(arr[i])) // adds the returned value from the 'func' parameter to the new array
   }
 
   return newArr // returns the new array
 }
 
 // Write your code where indicated below.
-// The test will compare the return value of your method with the return value of the mysteryMethod function.
+// When you run the test, it will compare the return value of your method with the return value of the mysteryMethod function.
 const ex1Example = mysteryMethod(ex1Array, (num) => num * 5)
 const ex1Answer = 'Your method goes here'
 

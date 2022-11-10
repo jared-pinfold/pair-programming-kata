@@ -4,6 +4,7 @@
 
 // In this exercise you are doing the opposite of what you did in Exercise 1. 
 // You're going to write a function which implements a simple version of the .filter() array method
+// https://www.w3schools.com/jsref/jsref_filter.asp
 
 function filterFunction (arr, func) {
   /* code goes here*/
