@@ -59,7 +59,8 @@ Watch Usage
  › Press Enter to trigger a test run.
 ```
 
-The most important thing is not to panic! Welcome to your first introduction to testing. In this challenge, you're going to make all the tests go GREEN. It's rather addictive once you get started.
+The most important thing is not to panic! The test is telling you what it's expecting as the return value of the function, and what it's actually getting. In this example it was expecting a string which says `"Hello Aardvark"`, and it got `undefined` (which normally means the function didn't return anything).
+Welcome to your first introduction to testing! In this challenge, you're going to make all the tests go GREEN. It's rather addictive once you get started.
 
 
 ## Kata
